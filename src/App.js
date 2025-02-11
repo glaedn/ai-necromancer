@@ -83,7 +83,7 @@ function NecromancerApp() {
 
         {response && (
           <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#333', borderRadius: '5px' }}>
-            <p>{response}</p>
+            <ReactMarkdown>{response}</ReactMarkdown>
           </div>
         )}
       </div>
