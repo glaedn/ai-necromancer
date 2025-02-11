@@ -70,7 +70,7 @@ function NecromancerApp() {
           style={{
             width: '100%',
             padding: '10px',
-            backgroundColor: 'deepPurple',
+            backgroundColor: 'purple',
             color: 'white',
             border: 'none',
             borderRadius: '5px',
