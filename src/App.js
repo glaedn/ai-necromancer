@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import ReactMarkdown from 'react-markdown';
 
 function NecromancerApp() {
   const [person, setPerson] = useState('');
