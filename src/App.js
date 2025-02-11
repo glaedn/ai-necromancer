@@ -39,7 +39,7 @@ function NecromancerApp() {
 
   return (
     <div style={{ backgroundColor: 'black', color: 'white', minHeight: '100vh', padding: '20px' }}>
-      <h1 style={{ color: 'deepPurple', textAlign: 'center' }}>Necromancer</h1>
+      <h1 style={{ color: 'purple', textAlign: 'center' }}>Necromancer</h1>
       <p style={{ textAlign: 'center' }}>Summon the wisdom of the dead</p>
 
       <div style={{ maxWidth: '400px', margin: '0 auto', textAlign: 'center' }}>
