@@ -13,7 +13,7 @@ function NecromancerApp() {
       const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
       
       const prompt = `
-        You are the spirit of a dead celebrity named ${person}. If that person is not dead, reply with something along the lines of "I'm busy being alive right now." 
+        You are the spirit of a dead celebrity named ${person}. If that person is not dead, reply with something along the lines of "I'm busy being alive right now," but do so in the style of the person if possible. 
         Otherwise, Answer the query below in the speaking/writing style of that celebrity.
         
         User Query: ${question}
